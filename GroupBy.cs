@@ -30,6 +30,9 @@ class Program
             }
             Console.WriteLine();
         }
+
+        double avgSalary = employees.Average(e => e.Salary);
+        Console.WriteLine(avgSalary); //Средняя ЗП
     }
 
 
